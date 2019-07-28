@@ -1,0 +1,7 @@
+all: part2Client.c part2Server.c
+
+part2Client: part2Client.c
+    gcc -o part2Client part2Client.c
+
+part2Server: part2Server.c
+    gcc -o part2Server part2Server.c
